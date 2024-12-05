@@ -8,7 +8,7 @@ tasks_total = (score_1 + score_2)
 time_avg = (team1_time + team2_time)/tasks_total
 def challenge_result():
     if score_1 > score_2 or score_1 == score_2 and team1_time > team2_time:
-        result = 'Победакоманды Мастера кода!'
+        result = 'Победа команды Мастера кода!'
     elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
         result = 'Победа команды Волшебники Данных!'
     else:
